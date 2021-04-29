@@ -1,5 +1,5 @@
 def func1():
-    num = '0'
+    num = input("enter a number, type stop to end: ")
     sum = 0
     while(num != "stop"):
         sum += int(num)
