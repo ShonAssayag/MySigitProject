@@ -10,6 +10,6 @@ def ex3():
             count = 1
 
     output += st[len(st)-1] + str(count)
-    print(output)
+    return output
 
-ex3()
+print(str(ex3()))
